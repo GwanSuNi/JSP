@@ -21,17 +21,25 @@
 	<h2>2. 클라이언트의 요청 매개변수 읽기</h2>
 	<form action="RequestParameter.jsp" method="post">
 		<!-- 3. 다양한 <input> 태그 사용 -->
-		아이디 : <input type="text" name="id" value="" /><br />
+		이름 : <input type="text" name="id" value="" /><br />
+		이메일 : <input type="email" name="email" value="" /><br />
+		전화번호: <input type="number" name="phone" value=""/><br/> 
 		성별 :
 		<input type="radio" name="sex" value="man" />남자 
 		<input type="radio" name="sex" value="woman" checked="checked" />여자 <br /> 
-		관심사항 : 
+		취미 : 
 		<input type="checkbox" name="favo" value="eco" />경제 
 		<input type="checkbox" name="favo" value="pol" checked="checked" />정치 
 		<input type="checkbox" name="favo" value="ent" />연예<br /> 
 		자기소개 :
 		<textarea name="intro" rows="4" cols="30"></textarea>
-		<br /> 
+		<br />
+		학번 :
+		<input type="number" name = "sno" value=""/><br/>
+		JSP 성적: 
+		<input type="number" name="jspScore" value=""/><br/>
+		HTML 성적:
+		<input type="number" name="htmlScore" value=""/><br/>
 		<input type="submit" value="전송하기" />
 	</form>
 
