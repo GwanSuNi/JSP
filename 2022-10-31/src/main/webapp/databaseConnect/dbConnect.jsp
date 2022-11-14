@@ -37,7 +37,7 @@ td {
 		</thead>
 		<%
 		// connector J (MySQL cj JDBC Driver) 마리아DB 아님
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = null;
 		Statement statmt = null;
 		ResultSet rtst = null;
