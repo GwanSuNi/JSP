@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="TestProject" path="/TestProject" reloadable="true" source="org.eclipse.jst.jee.server:TestProject"/><Context docBase="2022-09-26" path="/2022-09-26" reloadable="true" source="org.eclipse.jst.jee.server:2022-09-26"/><Context docBase="MustHaveJSP_origin" path="/MustHaveJSP_origin" reloadable="true" source="org.eclipse.jst.jee.server:MustHaveJSP_origin"/><Context docBase="2022-10-31" path="/2022-10-31" reloadable="true" source="org.eclipse.jst.jee.server:2022-10-31"/></Host>
+      <Context docBase="2022-09-26" path="/2022-09-26" reloadable="true" source="org.eclipse.jst.jee.server:2022-09-26"/><Context docBase="2022-10-31" path="/2022-10-31" reloadable="true" source="org.eclipse.jst.jee.server:2022-10-31"/><Context docBase="MustHaveJSP_origin" path="/MustHaveJSP_origin" reloadable="true" source="org.eclipse.jst.jee.server:MustHaveJSP_origin"/><Context docBase="2022-11-14" path="/2022-11-14" reloadable="true" source="org.eclipse.jst.jee.server:2022-11-14"/><Context docBase="2022-11-28" path="/2022-11-28" reloadable="true" source="org.eclipse.jst.jee.server:2022-11-28"/></Host>
     </Engine>
   </Service>
 </Server>
