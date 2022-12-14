@@ -19,11 +19,11 @@
   </context-param>
   <context-param>
     <param-name>MySqlId</param-name>
-    <param-value>####</param-value>
+    <param-value>testID</param-value>
   </context-param>
   <context-param>
     <param-name>MySqlPwd</param-name>
-    <param-value>####</param-value>
+    <param-value>1234</param-value>
   </context-param>
   
 </web-app>
