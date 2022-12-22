@@ -3,6 +3,7 @@ package com.jsp.ex.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,7 +17,7 @@ public class Sample1 extends HttpServlet {
     public Sample1() {
         super();
     }
-
+    
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
@@ -34,7 +35,7 @@ public class Sample1 extends HttpServlet {
 		writer.println("<title>Sample1.java</title>");
 		writer.println("</head>");
 		writer.println("<body>");
-		writer.println("<h1>Hello world! </h1>");
+		writer.println("<h1>Hello world!</h1>");
 		writer.println("</body>");
 		writer.println("</html>");
 
